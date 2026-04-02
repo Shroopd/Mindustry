@@ -47,7 +47,7 @@ public class Menus{
     }
 
     @Remote(variants = Variant.both)
-    public static void hideFollowUpMenu(int menuId) {
+    public static void hideFollowUpMenu(int menuId){
         ui.hideFollowUpMenu(menuId);
     }
 
